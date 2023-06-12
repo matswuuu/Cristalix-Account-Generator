@@ -16,8 +16,6 @@ class App(customtkinter.CTk):
         super().__init__()
         self.title("Account Generator")
         self.geometry("360x110")
-        #self.iconbitmap("images/logo.ico")
-        #self.protocol("WM_DELETE_WINDOW")
 
         self.email_label = customtkinter.CTkLabel(
             self, text="Почта: ", width=200, height=30)
